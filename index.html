@@ -94,11 +94,18 @@
           >LinkedIn</a
         >
         <img
-          src="PATH_TO_YOUR_PLACEHOLDER_QR_CODE"
+          id="qr-button"
+          src="qrcode.png"
           alt="QR Code"
-          class="qr-code"
+          class="qr-code btn"
         />
+        <div id="qr-modal" class="modal">
+          <span id="close">&times;</span>
+          <img id="modal-content" class="modal-content" />
+          <div id="caption"></div>
+        </div>
       </div>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>
